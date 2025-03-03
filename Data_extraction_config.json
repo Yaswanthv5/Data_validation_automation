@@ -1,0 +1,22 @@
+{
+    "dev_connection": {
+        "url": "jdbc:teradata://example.dev/DATABASE='', LOGMECH-LDAP, DBS PORT-1025",
+        "userid": "example_user_dev",
+        "password": "example_password_dev"
+    },
+    "pod_connection": {
+        "url": "jdbc:teradata://example.pod/DATABASE='', LOGMECH-LDAP, DBS PORT-1025",
+        "userid": "example_user_pod",
+        "password": "example_password_pod"
+    },
+    "uat_connection": {
+        "url": "jdbc:teradata://example.uat/DATABASE='', LOGMECH-LDAP, DBS PORT-1025",
+        "userid": "example_user_uat",
+        "password": "example_password_uat"
+    },
+    "verification_connection": {
+        "url": "jdbc:teradata://example.verification/DATABASE='', LOGMECH-LDAP, DBS_PORT=1025",
+        "userid": "example_user_verification",
+        "password": "example_password_verification"
+    }
+}
