@@ -2,6 +2,13 @@
 
 This is a complete end-to-end Python automated pipeline for Data Extraction, Transformation, and Validation. Built using Python for the ETL validation automation from Teradata to Snowflake project, where AWS is the staging area.
 
+The tool has 3 options
+1. **Manual**: This option provides to control the input data and executes for only single file or single table.
+2. **Auto**: This option provides an option to upload an CSV or JSON file to the script. Then the script will execute all the tables or information in the CSV or json.
+3. **Hashing**: This method is for security hasing method purpose.
+
+The script not only preforms data check and validation check. It also generates and saves the metadata and generic sql of the tables provided. 
+
 ## Flowchart
 
 ```mermaid
